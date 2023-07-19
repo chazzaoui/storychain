@@ -101,7 +101,7 @@ const Home: NextPage = () => {
           >
             Write part of your community&apos;s story
           </h1>
-          <div className='bg-white shadow-md p-6 rounded-lg text-center mb-8 w-1/2 md:w-4/5'>
+          <div className='bg-white shadow-md p-6 rounded-lg text-center mb-8 w-4/5 mx-auto md:w-4/5'>
             <h1 className='text-lg md:text-xl lg:text-2xl'>{dataStory}</h1>
           </div>
 
