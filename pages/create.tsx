@@ -28,7 +28,7 @@ const Create: NextPage = () => {
 
       <div className='flex-1 w-1/2 flex flex-col items-center justify-start py-16'>
         <h1 className='text-4xl md:text-6xl lg:text-7xl text-center mb-8'>
-          Write part of your community's story
+          Write part of your community&apos;s story
         </h1>
         <form onSubmit={handleSubmit} className='flex flex-col items-center'>
           <textarea
