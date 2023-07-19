@@ -76,25 +76,12 @@ const Write: NextPage = () => {
           >
             Write part of your community&apos;s story
           </h1>
-          <div
-            style={{
-              backgroundColor: '#ffffff',
-              boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-              padding: '20px',
-              borderRadius: '8px',
-              textAlign: 'center',
-              marginBottom: '24px',
-              width: '50%',
-              minHeight: '50%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            <h1 className='text-1xl md:text-2xl lg:text-3xl'>
+          <div className='bg-white shadow-md p-6 rounded-lg text-center mb-8 w-1/2 md:w-4/5'>
+            <h1 className='text-lg md:text-xl lg:text-2xl'>
               {dataStory + ' ' + inputValue}
             </h1>
           </div>
+
           <form onSubmit={handleSubmit} className='flex flex-col items-center'>
             <textarea
               value={inputValue}
